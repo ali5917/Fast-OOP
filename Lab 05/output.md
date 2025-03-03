@@ -68,5 +68,4 @@
 
 *Output:*
 
-![](./image7.png){width="5.552083333333333in"
-height="2.6770833333333335in"}
+![](./images/image7.png)
