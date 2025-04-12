@@ -6,18 +6,21 @@
 
 **Task 01:**
 
-*Output:\
-*![](./images/image1.png)
+*Output:*
+
+![](./images/image1.png)
 
 **Task 02:**
 
-*Output:\
-*![](./images/image3.png)
+*Output:*
+
+![](./images/image3.png)
 
 **Task 03:**
 
-*Output:\
-*![](./images/image4.png)
+*Output:
+
+![](./images/image4.png)
 
 **Task 04:**
 
