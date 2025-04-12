@@ -18,7 +18,7 @@
 
 **Task 03:**
 
-*Output:
+*Output:*
 
 ![](./images/image4.png)
 
