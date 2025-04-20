@@ -12,12 +12,14 @@
 **Task 02:**
 
 *Output:*
+
 ![](./images/image4.png)
 
 **Task 03:**
 
 *Output:*
-![](./images/image3.png)![](./image2.png)
+
+![](./images/image3.png)[](url)![](./images/image2.png)
 
 **Task 04:**
 
