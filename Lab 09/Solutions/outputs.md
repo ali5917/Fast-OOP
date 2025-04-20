@@ -7,6 +7,7 @@
 **Task 01:**
 
 *Output:*
+
 ![](./images/image6.png)
 
 **Task 02:**
