@@ -16,5 +16,4 @@ int main () {
             cout << thisLine << endl;
         }
     }
-
 }
