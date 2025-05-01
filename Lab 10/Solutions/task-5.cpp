@@ -44,9 +44,25 @@ int main () {
                     int capacity = stoi(str);
                     cout << "ID: " << id << ", Battery Capacity: " << capacity << endl;
                 }
-            } 
+            } else if (type == "HybridTruck") {
+                int cargoValue, batteryValue;
+                size_t pos1 = extraData.find("Cargo:");
+                size_t pos2 = extraData.find('|');
 
+                if (pos1 != string::npos && pos2 != string::npos) {
+                    string cargoString = extraData.substr(pos1 + 6, pos2 - (pos1 + 6));
+                    cargoValue = stoi(cargoString);
 
+                    size_t pos3 = extraData.find("Battery:");
+                    if (pos3 != string::npos) {
+                        string batteryString = extraData.substr(pos3 + 8);
+                        batteryValue = stoi(batteryString);
+                    }
+                    cout << "ID: " << id << ", Cargo: " << cargoValue << ", Battery: " << batteryValue << endl;
+                }
+            } else {
+                cout << "Error: Invalid Vehicle Type";
+            }
         }
     }
 }
