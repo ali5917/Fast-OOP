@@ -8,6 +8,7 @@ int main () {
     vehiclesFile.open("vehicles.txt");
     if (!vehiclesFile.is_open()) {
         cout << "Error opening file!";
+        exit(1);
     }
 
     string thisLine;

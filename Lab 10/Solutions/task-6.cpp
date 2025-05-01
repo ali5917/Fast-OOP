@@ -19,7 +19,10 @@ int main () {
     InventoryItem item1 (102, "Pencil Box");
     ofstream outFile;
     outFile.open("inventory.dat", ios::binary);
-    if (!outFile.is_open()) cout << "Error opening output file!";
+    if (!outFile.is_open()) {
+        cout << "Error opening output file!";
+        exit(1);
+    }
 
     outFile.write((char *)&item1, sizeof(item1));
     outFile.close();
@@ -27,7 +30,10 @@ int main () {
     InventoryItem item2;    
     ifstream inFile;
     inFile.open("inventory.dat", ios::binary);
-    if (!inFile.is_open()) cout << "Error opening input file!";
+    if (!inFile.is_open()) {
+        cout << "Error opening input file!";
+        exit (1);
+    }
 
     inFile.read((char *)&item2, sizeof(item2));
     inFile.close();
