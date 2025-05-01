@@ -29,22 +29,24 @@ int main () {
 
             cout << "\nType: " << type << ", ID: " << id << ", Name: " << name << ", Year: " << integerYear << ", Extra Data: " << extraData << ", Certification: " << certification << endl;
 
-            size_t pos = extraData.find(':');
             if (type == "AutonomousCar") {
+                size_t pos = extraData.find(':');
                 if (pos != string::npos) {
                     string str = extraData.substr(pos + 1);
                     float swVersion = stof(str);
-
                     cout << "ID: " << id << ", Software Version: " << swVersion << endl;
-                }
-                
+                } 
+                    
             } else if (type == "ElectricVehicle") {
+                size_t pos = extraData.find(':');
                 if (pos != string::npos) {
                     string str = extraData.substr(pos + 1);
                     int capacity = stoi(str);
                     cout << "ID: " << id << ", Battery Capacity: " << capacity << endl;
                 }
-            }
+            } 
+
+
         }
     }
 }
