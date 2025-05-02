@@ -6,28 +6,33 @@
 
 **Task 01:**
 
-*Output:\
-*![](./images/image10.png)
+*Output:*
+
+![](./images/image10.png)
 
 **Task 02:**
 
-*Output:\
-*![](./images/image9.png)
+*Output:*
+
+![](./images/image9.png)
 
 **Task 03:**
 
-*Output:\
-*![](./images/image5.png)
+*Output:*
+
+![](./images/image5.png)
 
 **Task 04:**
 
-*Output:\
-*![](./images/image4.png)
+*Output:*
+
+![](./images/image4.png)
 
 **Task 05:**
 
-*Output:\
-*![](./images/image6.png)
+*Output:*
+
+![](./images/image6.png)
 
 **Task 06:**
 
@@ -37,8 +42,9 @@
 
 **Task 07:**
 
-*Output:\
-*![](./images/image8.png)
+*Output:*
+
+![](./images/image8.png)
 
 **Task 08:**
 
