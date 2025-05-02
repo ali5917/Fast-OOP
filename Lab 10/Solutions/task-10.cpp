@@ -12,7 +12,7 @@ int main () {
     }
 
     char chars[10];
-    inFile.seekg(2 * 10, ios::beg);
+    inFile.seekg(20, ios::beg);
     inFile.read(chars, 10);
     chars[9] = '\0';
     cout << "Extracted line: " << chars << endl;
