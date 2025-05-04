@@ -1,12 +1,11 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 class InvalidValueException: public exception {
 
     public:
-        const char *what () const noexcept override {
+        const char* what () const noexcept override {
             return "InvalidValueException - Age cannot be negative or exceeds 120";
         }
 };
